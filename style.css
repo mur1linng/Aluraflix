@@ -3,12 +3,13 @@ body {
     background: black;
     margin: 0px;
     font-family: "Oswald", sans-serif;
+    margin-bottom: 100px
 }
 
 header {
     border-bottom: solid 2px rgb(131, 0, 138);
     padding: 20px;
-    font-size: 40px;
+    font-size: 32px;
     color: rgb(131, 0, 138);
 }
 
@@ -21,6 +22,7 @@ header {
 }
 
 .chamada-texto {
+    margin-left: 5%;
     margin-right: 5%;
 }
 img {
@@ -36,8 +38,26 @@ img {
 .categoria{
     padding-left: 20px;
     padding-right: 20px;
+    margin-top: 50px
 }
 
 .categoria-videos img {
-    opacity: 0.5
+    opacity: 0.5;
+}
+
+.categoria-videos img:hover {
+    opacity: 1.0;
+    border: 3px solid purple;
+}
+
+.categoria h2 {
+    color: rgb(131, 0, 138);
+}
+
+h1 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 20px;
 }
